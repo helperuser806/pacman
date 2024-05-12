@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Noto+Sans+JP:wght@700&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+
+
+body{
+    background-color: rgb(255, 254, 254);
+    margin-block-end: 100px;
+    user-select: none;
+}
+
+
+.fondo1{
+    height: 68%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background: linear-gradient(rgba(5,7,12, 0.80 ), rgba(5,7,12, 0.85)),url(./imagenes/coding1.jpg);
+    position: absolute;
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .fondo1 {
+        position: absolute;
+        height: 65%;
+    }
+}
+
+.blender{
+    height: 29%;
+    width: 15%;
+    border-radius: 700px;
+    top: 18%;
+    left: 31%;
+    border: 2px solid rgb(255, 255, 255);  
+    transition: 300ms;
+    position: absolute;
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .blender {
+        position: absolute;
+        width: 16%;
+    }
+}
+
+
+.blender:hover{
+    transform: scale(1.15);
+    transition: 300ms;
+}
+
+
+.titulo{
+    font-size: 40px;
+    top: 19%;
+    left: 49%;
+    color: rgb(26, 104, 250);
+    font-family: 'Noto Sans JP', sans-serif;
+    position: absolute;
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .titulo {
+        position: absolute;
+        font-size: 55px;
+    }
+}
+
+.titulo2{
+    font-size: 160%;
+    top: 30%;
+    left: 50.8%;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .titulo2 {
+        position: absolute;
+        font-size: 33px;
+        top: 29% ;
+    }
+}
+
+.texto1{
+    font-size: 130%;
+    top: 75%;
+    left: 14%;
+    color: rgb(26, 25, 25);
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    width: 400px;
+    position: absolute;
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .texto1 {
+        position: absolute;
+        font-size: 33px;
+        width: 35%;
+    }
+}
+
+
+.skills{
+    font-size: 1.5vw; /* Utilizando vw (viewport width) para el tamaño de fuente */
+    max-width: 90%; /* Estableciendo un ancho máximo para evitar desbordamientos */
+    top: 75%;
+    left: 58.8%; 
+    transform: translateX(-50%);
+    color: rgb(26 25, );
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .skills {
+        position: absolute;
+        font-size: 33px;
+    }
+}
+
+.html{
+    max-width: 100%;
+    height: auto;
+    width: 7%;
+    top: 89.1%;
+    left: 729px; 
+    transition: 300ms;
+    position: absolute;
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .html {
+        position: absolute;
+        left: 53%;
+    }
+}
+
+.html:hover{
+    transform: scale(1.15);
+    transition: 300ms;
+}
+
+.css{
+    max-width: 100%;
+    height: auto;
+    width: 8%;
+    top: 88.1%;
+    left: 825px;
+    transition: 300ms;
+    position: absolute; 
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .css {
+        position: absolute;
+        left: 60%;
+    }
+}
+
+.css:hover{
+    transform: scale(1.15);
+    transition: 300ms;
+}
+
+.github{
+    max-width: 100%;
+    height: auto;
+    width: 11%;
+    top: 89%;
+    left: 920px;
+    transition: 300ms;
+    position: absolute;
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .github {
+        position: absolute;
+        left: 67%;
+    }
+}
+
+.github:hover{
+    transform: scale(1.15);
+    transition: 300ms;
+}
+
+.ubuntu{
+    max-width: 100%;
+    height: auto;
+    width: 11%;
+    top: 89%;
+    left: 1050px;
+    position: absolute; 
+    transition: 300ms; 
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .ubuntu {
+        position: absolute;
+        left: 77%;
+    }
+}
+
+.ubuntu:hover{
+    transform: scale(1.15);
+    transition: 300ms;
+}
+
+.projects{
+    font-size: 130%;
+    top: 115%;
+    left: 14%;
+    color: rgb(26, 25, 25);
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    position: absolute;
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .projects {
+        position: absolute;
+        font-size: 33px;
+    }
+}
+
+#weblink {
+    height: 29%;
+    width: 19%;
+    top: 133%;
+    left: 14%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    transition: 400ms;
+    position: absolute;
+}
+
+#weblink:hover{
+    transform: scale(1.15);
+    transition: 400ms;
+}
+
+#weblink2 {
+    height: 29%;
+    width: 19%;
+    top: 133%;
+    left: 40.8%; 
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    transition: 400ms;
+    position: absolute;
+}
+
+#weblink2:hover{
+    transform: scale(1.15);
+    transition: 400ms;
+}
+
+#weblink3 {
+    height: 29%;
+    width: 19%;
+    top: 133%;
+    left: 68%; 
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    transition: 400ms;
+    position: absolute;
+}
+
+#weblink3:hover{
+    transform: scale(1.15);
+    transition: 400ms;
+}
+
+.invisible{
+    position: absolute;
+    top: 170%;
+    width: 2%;
+    height: 3%;
+    background-color: rgb(255, 254, 254);
+}
+
+.huby{
+    position: absolute;
+    top: 1%;
+    left: 86%;
+    width: 13%;
+    height: 7.6%;
+    transition: 300ms; 
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .huby {
+        position: absolute;
+        width: 14%;
+    }
+}
+
+.huby:hover{
+    transform: scale(1.09);
+    transition: 300ms;
+}

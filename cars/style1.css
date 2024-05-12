@@ -1,0 +1,227 @@
+body{
+    background-color: black;
+}
+
+.encabezado{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+}
+
+.logo{
+    height: 20%,auto;
+    width: 20%;
+    position: absolute;
+    top: 35%;
+    left: 39%;
+    text-align: center;
+}
+
+.logo2{
+    height: 6%,auto;
+    width: 6%;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    transition: 300ms;
+}
+
+.logo2:hover{
+    transform: scale(1.20);
+    transition: 300ms;
+}
+
+.Inicio{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-family: monospace;
+    left: 9%;
+    top: 1%;
+    font-size: 70%;
+    transition: 300ms;
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.Inicio:hover{
+    transform: scale(1.22);
+    transition: 300ms;
+}
+
+.SobreNosotros{
+    color: white;
+    position: absolute;
+    font-family: monospace;
+    left: 17%;
+    top: 1%;
+    font-size: 70%;
+    transition: 300ms;
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+.SobreNosotros:hover{
+    transform: scale(1.20);
+    transition: 300ms;
+}
+
+.Vehiculos{
+    color: white;
+    position: absolute;
+    font-family: monospace;
+    left: 30.5%;
+    top: 1%;
+    font-size: 70%;
+    transition: 300ms;
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+.Vehiculos:hover{
+    transform: scale(1.20);
+    transition: 300ms;
+}
+
+.texto1{
+    font-size: 200% ;
+    color: white;
+    position: absolute;
+    width: 40%;
+    font-family: monospace;
+    top: 95%;
+    left: 5%;
+}
+
+.nitro{
+    height: 22%;
+    width: 15%;
+    position: absolute;
+    top: 115%;
+    border: 2px solid white;
+    left: 46%;
+    border-radius: 5%;
+    transition: 400ms;
+}
+
+.nitro:hover{
+    transform: scale(1.15);
+    transition: 300ms;
+}
+
+.nitro2{
+    height: 22%;
+    width: 15%;
+    position: absolute;
+    top: 115%;
+    border: 2px solid white;
+    left: 63%;
+    border-radius: 5%;
+    transition: 400ms;
+}
+
+.nitro2:hover{
+    transform: scale(1.15);
+    transition: 300ms;
+}
+
+.nitro3{
+    height: 22%;
+    width: 15%;
+    position: absolute;
+    top: 115%;
+    border: 2px solid white;
+    left: 80%;
+    border-radius: 5%;
+    transition: 400ms;
+}
+
+.nitro3:hover{
+    transform: scale(1.15);
+    transition: 300ms;
+}
+
+.texto2{
+    font-size: 150% ;
+    color: white;
+    position: absolute;
+    font-family: monospace;
+    top: 145%;
+    left: 19%;
+}
+
+.texto3{
+    font-size: 150% ;
+    color: rgb(43, 177, 218);
+    position: absolute;
+    font-family: monospace;
+    top: 145%;
+    left: 62%;
+    transition: 400ms;
+    a{
+        text-decoration: none;
+        color: rgb(24, 194, 61);
+    }
+}
+
+.texto3:hover{
+    transform: scale(1.20);
+    transition: 300ms;
+}
+
+.square{
+    width: 100%;
+    position: absolute;
+    height: 65%;
+    background-color: rgb(255, 255, 255);
+    left: 0%;
+    top: 170%;
+}
+
+.texto4{
+    font-size: 150% ;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 25%;
+    font-family: monospace;
+    top: 175%;
+    left: 5%;
+}
+
+.texto5{
+    font-size: 150% ;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 25%;
+    font-family: monospace;
+    top: 192.9%;
+    left: 38%;
+}
+
+.texto6{
+    font-size: 150% ;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 25%;
+    font-family: monospace;
+    top: 192.9%;
+    left: 72%;
+}
+
+.copyright{
+    font-size: 85% ;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 40%;
+    font-family: monospace;
+    top: 228%;
+    left: 29%;
+}

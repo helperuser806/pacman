@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
+body{
+    background-color:#010409;
+    width: 1330px;
+    
+}
+
+
+
+.intialdlogo{
+    width: 1340px;
+    margin-top: -40px;
+    margin-left: -15px;
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .intialdlogo {
+        position: absolute;
+        max-width:150%;
+        left:18% ; 
+    }
+}
+
+.texto1{
+    color: rgb(204, 206, 207);
+    font-family: 'Play', sans-serif;
+    font-size: 30px;
+    width: 45%;
+    text-align: justify ;
+    left: 482px;
+    top: 462px;
+    position: absolute;
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .texto1 {
+        position: absolute;
+        left:35% ; 
+    }
+}
+
+.texto2{
+    color: rgb(204, 206, 207);
+    font-family: 'Play', sans-serif;
+    font-size: 24px;
+    width: 45%;
+    text-align: justify ;
+    left: 482px;
+    top: 625px;
+    position: absolute;
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .texto2 {
+        position: absolute;
+        left:35% ; 
+    }
+}
+
+#img1{
+    height: 260px;
+    width: 221px;
+    top: 500px;
+    left: 242px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    #img1 {
+        position: absolute;
+        left:22% ; 
+    }
+}
+
+#img2{
+    height: 260px;
+    width: 221px;
+    top: 814px;
+    left: 867px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    #img2 {
+        position: absolute;
+        left:68.8% ; 
+    }
+}
+
+.texto3{
+    color: rgb(204, 206, 207);
+    font-family: 'Play', sans-serif;
+    font-size: 30px;
+    width: 45%;
+    text-align: justify ;
+    left: 242px;
+    top: 777px;
+    position: absolute;
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .texto3 {
+        position: absolute;
+        left:22% ; 
+    }
+}
+
+
+.texto4{
+    color: rgb(204, 206, 207);
+    font-family: 'Play', sans-serif;
+    font-size: 21px;
+    width: 45%;
+    text-align: justify ;
+    left: 237px;
+    top: 992px;
+    position: absolute;
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .texto4 {
+        position: absolute;
+        left:22% ; 
+        top: 90%;
+    }
+}
+
+
+.tittlesong{
+    position: absolute;
+    width: 1000px;
+    top: 1135px;
+    left: 180px;
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .tittlesong {
+        position: absolute;
+        left:26% ; 
+        top: 105%;
+    }
+}
+
+
+.padre{
+    position: absolute;
+    top: 1200px;
+    left: 430px;
+    padding-block-end:  100px;
+    audio::-webkit-media-controls-play-button,
+    audio::-webkit-media-controls-panel{
+        background-color: rgb(182, 182, 182);
+    }
+    display: grid;
+
+    .audio{
+        padding-top: 198px;
+    }
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .padre{
+        position: absolute;
+        left:40% ; 
+        top: 111%;
+    }
+}
+
+
+.padre2{
+    position: absolute;
+    top: 1200px;
+    left: 240px;
+    .img{
+        margin-top: 102px;
+        height: 150px;
+        width: 170px;
+        border-radius: 5px;
+    }
+    display: grid;
+}
+
+@media screen and (min-width: 1920px) and (min-height: 1080px) {
+    .padre2{
+        position: absolute;
+        left:30% ; 
+    }
+}
